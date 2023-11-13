@@ -32,7 +32,7 @@ let isPair = false;
 
 const memoryGame = new MemoryGame(cards);
 
-//memoryGame.shuffleCards(this.cards);
+memoryGame.shuffleCards(this.cards);
 
 window.addEventListener('load', event => {
   let html = '';
